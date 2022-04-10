@@ -20,4 +20,5 @@ urlpatterns = [
     path("", include("hello.urls")),
     path('admin/', admin.site.urls),
     path("calculator_aplikace/", include("calculator.urls")),
+    path("moviebook/", include("moviebook.urls")),
 ]
